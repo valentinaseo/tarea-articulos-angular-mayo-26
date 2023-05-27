@@ -1,0 +1,13 @@
+
+<table border="1">
+    <tr>
+        <td>Nombre</td>
+        <td>Autor</td>
+        <td>Año</td>
+    </tr>
+    <tr *ngFor="let Favorite of FavoriteBooks">
+        <td>{{Favorite.nombre}}</td>
+        <td>{{Favorite.autor}}</td>
+        <td>{{Favorite.year}}</td>
+    </tr>
+</table>
